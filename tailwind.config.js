@@ -4,6 +4,10 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    fontFamily: {
+      'spacemono': ['Space Mono'],
+      'WorkSans': ['Work Sans'],
+    },
     extend: {},
   },
   plugins: [],
