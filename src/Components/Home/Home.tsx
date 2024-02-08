@@ -3,6 +3,7 @@ import Logo from '../../assets/img/Storefront2.svg';
 import User from '../../assets/img/User.svg';
 import HeroImage from '../../assets/img/Hero.png';
 import Started from '../../assets/img/GetStarted.svg';
+import Ranking from '../../assets/img/Ranking.svg';
 import SideAvatar from '../../assets/img/SideAvatar.png';
 import MrFox from '../../assets/img/Mr_Fox.png';
 import Shroomie from '../../assets/img/Shroomie.png';
@@ -16,6 +17,18 @@ import Magic_Third from '../../assets/img/Trending_2_2.png';
 import Disco_Main from '../../assets/img/Trending_3.png';
 import Disco_Second from '../../assets/img/Trending_3_1.png';
 import Disco_Third from '../../assets/img/Trending_3_2.png';
+import Keepitreal from '../../assets/img/Keepitreal.png';
+import DigiLab from '../../assets/img/DigiLab.png';
+import GravityOne from '../../assets/img/GravityOne.png';
+import Juanie from '../../assets/img/Juanie.png';
+import BlueWhale from '../../assets/img/BlueWhale.png';
+import MrFox2 from '../../assets/img/MrFox.png';
+import Shroomie2 from '../../assets/img/Shroomie2.png';
+import Robotica from '../../assets/img/Robotica.png';
+import RustyRobot from '../../assets/img/RustyRobot.png';
+import Animakid from '../../assets/img/Animakid.png';
+import Dotgu from '../../assets/img/Dotgu.png';
+import Ghiblier from '../../assets/img/Ghiblier.png';
 
 function Home() {
   return (
@@ -84,14 +97,14 @@ function Home() {
                 <h1 className='font-WorkSans text-4xl font-bold'>Trending Collection</h1>
                 <p className='font-WorkSans text-xl pt-8'>Checkout our weekly updated trending collection.</p>
             </div>
-            <div id='' className='flex flex-row justify-evenly'>
+            <div id='Collection' className='flex flex-row justify-evenly pt-10'>
                 <div className='flex flex-col gap-4'>
                     <img src={DSNG_Main} alt="DSNG Animals Main" />
                     <div className='flex flex-row justify-between'>
                         <img src={DSNG_Second} alt="Disco Machines Second" />
                         <img src={DSNG_Third} alt="Disco Machines Third" />
                         <div className='flex flex-row justify-center items-center bg-[#A259FF] rounded-3xl w-24'>
-                            <p className='font-spacemono'>1025+</p>
+                            <p className='font-spacemono font-bold'>1025+</p>
                         </div>
                     </div>
                     <h2 className='font-WorkSans font-bold text-2xl'>DSNG Animals</h2>
@@ -106,7 +119,7 @@ function Home() {
                         <img src={Magic_Second} alt="Disco Machines Second" />
                         <img src={Magic_Third} alt="Disco Machines Third" />
                         <div className='flex flex-row justify-center items-center bg-[#A259FF] rounded-3xl w-24'>
-                            <p className='font-spacemono'>1025+</p>
+                            <p className='font-spacemono font-bold'>1025+</p>
                         </div>
                     </div>
                     <h2 className='font-WorkSans font-bold text-2xl'>Magic Mushrooms</h2>
@@ -121,7 +134,7 @@ function Home() {
                         <img src={Disco_Second} alt="Disco Machines Second" />
                         <img src={Disco_Third} alt="Disco Machines Third" />
                         <div className='flex flex-row justify-center items-center bg-[#A259FF] rounded-3xl w-24'>
-                            <p className='font-spacemono'>1025+</p>
+                            <p className='font-spacemono font-bold'>1025+</p>
                         </div>
                     </div>
                     <h2 className='font-WorkSans font-bold text-2xl'>Disco Machines</h2>
@@ -129,6 +142,225 @@ function Home() {
                         <img src={BeKind2Robots} alt="Avatar" />
                         <p className='font-WorkSans pl-4'>BeKind2Robots</p>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div id='Creators' className='min-h-screen'>
+            <div id='Creators_Title' className='flex flex-row justify-between pl-56 py-16'>
+                <div className='flex flex-col'>
+                    <h1 className='font-WorkSans text-4xl font-bold'>Top Creators</h1>
+                    <p className='font-WorkSans text-xl pt-8'>Checkout Top Rated Creators on the NFT Marketplace</p>
+                </div>
+                <div className='flex items-end pr-56'>
+                    <button>
+                        <div className='py-4 px-14 bg-transparent border-2 border-[#A259FF] rounded-3xl flex flex-row items-center font-WorkSans font-semibold'>
+                            <img src={Ranking} alt="" className='w-6'/>
+                            <p className='pl-2'>View Rankings</p>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div id='Creators_List' className='flex flex-col py-16 items-center gap-8'>
+                <div id='First_Row' className='flex flex-row gap-8'>
+                    <div className='bg-[#3B3B3B] rounded-3xl pt-8 px-16 flex flex-col'>
+                        <div className='flex flex-row justify-center'>
+                            <img src={Keepitreal} alt="Keepitreal Avatar" className='w-36'/>
+                        </div>
+                        <div className='flex justify-center items-center pt-8 pb-4'>
+                            <h2 className='font-WorkSans font-semibold text-2xl'>Keepitreal</h2>
+                        </div>
+                        <div className='flex flex-row pb-8'>
+                            <div className='font-WorkSans text-[#858584]'>
+                                Total Sales:
+                            </div>
+                            <div className='font-spacemono pl-4'>
+                                34.53 ETH
+                            </div>
+                        </div>
+                    </div>
+                    <div className='bg-[#3B3B3B] rounded-3xl pt-8 px-16 flex flex-col'>
+                        <div className='flex flex-row justify-center'>
+                            <img src={DigiLab} alt="Keepitreal Avatar" className='w-36'/>
+                        </div>
+                        <div className='flex justify-center items-center pt-8 pb-4'>
+                            <h2 className='font-WorkSans font-semibold text-2xl'>DigiLab</h2>
+                        </div>
+                        <div className='flex flex-row pb-8'>
+                            <div className='font-WorkSans text-[#858584]'>
+                                Total Sales:
+                            </div>
+                            <div className='font-spacemono pl-4'>
+                                34.53 ETH
+                            </div>
+                        </div>
+                    </div>
+                    <div className='bg-[#3B3B3B] rounded-3xl pt-8 px-16 flex flex-col'>
+                        <div className='flex flex-row justify-center'>
+                            <img src={GravityOne} alt="Keepitreal Avatar" className='w-36'/>
+                        </div>
+                        <div className='flex justify-center items-center pt-8 pb-4'>
+                            <h2 className='font-WorkSans font-semibold text-2xl'>GravityOne</h2>
+                        </div>
+                        <div className='flex flex-row pb-8'>
+                            <div className='font-WorkSans text-[#858584]'>
+                                Total Sales:
+                            </div>
+                            <div className='font-spacemono pl-4'>
+                                34.53 ETH
+                            </div>
+                        </div>
+                    </div>
+                    <div className='bg-[#3B3B3B] rounded-3xl pt-8 px-16 flex flex-col'>
+                        <div className='flex flex-row justify-center'>
+                            <img src={Juanie} alt="Keepitreal Avatar" className='w-36'/>
+                        </div>
+                        <div className='flex justify-center items-center pt-8 pb-4'>
+                            <h2 className='font-WorkSans font-semibold text-2xl'>Juanie</h2>
+                        </div>
+                        <div className='flex flex-row pb-8'>
+                            <div className='font-WorkSans text-[#858584]'>
+                                Total Sales:
+                            </div>
+                            <div className='font-spacemono pl-4'>
+                                34.53 ETH
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div id='Second_Row' className='flex flex-row gap-8'>
+                    <div className='bg-[#3B3B3B] rounded-3xl pt-8 px-16 flex flex-col'>
+                        <div className='flex flex-row justify-center'>
+                            <img src={BlueWhale} alt="Keepitreal Avatar" className='w-36'/>
+                        </div>
+                        <div className='flex justify-center items-center pt-8 pb-4'>
+                            <h2 className='font-WorkSans font-semibold text-2xl'>BlueWhale</h2>
+                        </div>
+                        <div className='flex flex-row pb-8'>
+                            <div className='font-WorkSans text-[#858584]'>
+                                Total Sales:
+                            </div>
+                            <div className='font-spacemono pl-4'>
+                                34.53 ETH
+                            </div>
+                        </div>
+                    </div>
+                    <div className='bg-[#3B3B3B] rounded-3xl pt-8 px-16 flex flex-col'>
+                        <div className='flex flex-row justify-center'>
+                            <img src={MrFox2} alt="Keepitreal Avatar" className='w-36'/>
+                        </div>
+                        <div className='flex justify-center items-center pt-8 pb-4'>
+                            <h2 className='font-WorkSans font-semibold text-2xl'>Mr Fox</h2>
+                        </div>
+                        <div className='flex flex-row pb-8'>
+                            <div className='font-WorkSans text-[#858584]'>
+                                Total Sales:
+                            </div>
+                            <div className='font-spacemono pl-4'>
+                                34.53 ETH
+                            </div>
+                        </div>
+                    </div>
+                    <div className='bg-[#3B3B3B] rounded-3xl pt-8 px-16 flex flex-col'>
+                        <div className='flex flex-row justify-center'>
+                            <img src={Shroomie2} alt="Keepitreal Avatar" className='w-36'/>
+                        </div>
+                        <div className='flex justify-center items-center pt-8 pb-4'>
+                            <h2 className='font-WorkSans font-semibold text-2xl'>Shroomie</h2>
+                        </div>
+                        <div className='flex flex-row pb-8'>
+                            <div className='font-WorkSans text-[#858584]'>
+                                Total Sales:
+                            </div>
+                            <div className='font-spacemono pl-4'>
+                                34.53 ETH
+                            </div>
+                        </div>
+                    </div>
+                    <div className='bg-[#3B3B3B] rounded-3xl pt-8 px-16 flex flex-col'>
+                        <div className='flex flex-row justify-center'>
+                            <img src={Robotica} alt="Keepitreal Avatar" className='w-36'/>
+                        </div>
+                        <div className='flex justify-center items-center pt-8 pb-4'>
+                            <h2 className='font-WorkSans font-semibold text-2xl'>Robotica</h2>
+                        </div>
+                        <div className='flex flex-row pb-8'>
+                            <div className='font-WorkSans text-[#858584]'>
+                                Total Sales:
+                            </div>
+                            <div className='font-spacemono pl-4'>
+                                34.53 ETH
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div id='Third_Row' className='flex flex-row gap-8'>
+                    <div className='bg-[#3B3B3B] rounded-3xl pt-8 px-16 flex flex-col'>
+                        <div className='flex flex-row justify-center'>
+                            <img src={RustyRobot} alt="Keepitreal Avatar" className='w-36'/>
+                        </div>
+                        <div className='flex justify-center items-center pt-8 pb-4'>
+                            <h2 className='font-WorkSans font-semibold text-2xl'>RustyRobot</h2>
+                        </div>
+                        <div className='flex flex-row pb-8'>
+                            <div className='font-WorkSans text-[#858584]'>
+                                Total Sales:
+                            </div>
+                            <div className='font-spacemono pl-4'>
+                                34.53 ETH
+                            </div>
+                        </div>
+                    </div>
+                    <div className='bg-[#3B3B3B] rounded-3xl pt-8 px-16 flex flex-col'>
+                        <div className='flex flex-row justify-center'>
+                            <img src={Animakid} alt="Keepitreal Avatar" className='w-36'/>
+                        </div>
+                        <div className='flex justify-center items-center pt-8 pb-4'>
+                            <h2 className='font-WorkSans font-semibold text-2xl'>Animakid</h2>
+                        </div>
+                        <div className='flex flex-row pb-8'>
+                            <div className='font-WorkSans text-[#858584]'>
+                                Total Sales:
+                            </div>
+                            <div className='font-spacemono pl-4'>
+                                34.53 ETH
+                            </div>
+                        </div>
+                    </div>
+                    <div className='bg-[#3B3B3B] rounded-3xl pt-8 px-16 flex flex-col'>
+                        <div className='flex flex-row justify-center'>
+                            <img src={Dotgu} alt="Keepitreal Avatar" className='w-36'/>
+                        </div>
+                        <div className='flex justify-center items-center pt-8 pb-4'>
+                            <h2 className='font-WorkSans font-semibold text-2xl'>Dotgu</h2>
+                        </div>
+                        <div className='flex flex-row pb-8'>
+                            <div className='font-WorkSans text-[#858584]'>
+                                Total Sales:
+                            </div>
+                            <div className='font-spacemono pl-4'>
+                                34.53 ETH
+                            </div>
+                        </div>
+                    </div>
+                    <div className='bg-[#3B3B3B] rounded-3xl pt-8 px-16 flex flex-col'>
+                        <div className='flex flex-row justify-center'>
+                            <img src={Ghiblier} alt="Keepitreal Avatar" className='w-36'/>
+                        </div>
+                        <div className='flex justify-center items-center pt-8 pb-4'>
+                            <h2 className='font-WorkSans font-semibold text-2xl'>Ghiblier</h2>
+                        </div>
+                        <div className='flex flex-row pb-8'>
+                            <div className='font-WorkSans text-[#858584]'>
+                                Total Sales:
+                            </div>
+                            <div className='font-spacemono pl-4'>
+                                34.53 ETH
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
