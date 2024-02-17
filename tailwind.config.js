@@ -8,7 +8,6 @@ module.exports = {
       'spacemono': ['Space Mono'],
       'WorkSans': ['Work Sans'],
     },
-    extend: {},
   },
   plugins: [],
 }

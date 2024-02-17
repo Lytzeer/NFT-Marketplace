@@ -29,6 +29,14 @@ import RustyRobot from '../../assets/img/RustyRobot.png';
 import Animakid from '../../assets/img/Animakid.png';
 import Dotgu from '../../assets/img/Dotgu.png';
 import Ghiblier from '../../assets/img/Ghiblier.png';
+import Art from '../../assets/img/Art.png';
+import Collectibles from '../../assets/img/Collectibles.png';
+import Music from '../../assets/img/Music.png';
+import Photography from '../../assets/img/Photography.png';
+import Sport from '../../assets/img/Sport.png';
+import Utility from '../../assets/img/Utility.png';
+import Video from '../../assets/img/Video.png';
+import VirtualWorlds from '../../assets/img/VirtualWorlds.png';
 
 function Home() {
   return (
@@ -107,7 +115,7 @@ function Home() {
                             <p className='font-spacemono font-bold'>1025+</p>
                         </div>
                     </div>
-                    <h2 className='font-WorkSans font-bold text-2xl'>DSNG Animals</h2>
+                    <h2 className='font-WorkSans font-bold text-xl py-8 bg-[#3B3B3B] rounded-b-2xl pl-8'>DSNG Animals</h2>
                     <div className='flex flex-row'>
                         <img src={MrFox} alt="Avatar" />
                         <p className='font-WorkSans pl-4'>MrFox</p>
@@ -122,7 +130,7 @@ function Home() {
                             <p className='font-spacemono font-bold'>1025+</p>
                         </div>
                     </div>
-                    <h2 className='font-WorkSans font-bold text-2xl'>Magic Mushrooms</h2>
+                    <h2 className='font-WorkSans font-bold text-xl py-8 bg-[#3B3B3B] rounded-b-2xl pl-8'>Magic Mushrooms</h2>
                     <div className='flex flex-row'>
                         <img src={Shroomie} alt="Avatar" />
                         <p className='font-WorkSans pl-4'>Shroomie</p>
@@ -137,7 +145,7 @@ function Home() {
                             <p className='font-spacemono font-bold'>1025+</p>
                         </div>
                     </div>
-                    <h2 className='font-WorkSans font-bold text-2xl'>Disco Machines</h2>
+                    <h2 className='font-WorkSans font-bold text-xl py-8 bg-[#3B3B3B] rounded-b-2xl pl-8'>Disco Machines</h2>
                     <div className='flex flex-row'>
                         <img src={BeKind2Robots} alt="Avatar" />
                         <p className='font-WorkSans pl-4'>BeKind2Robots</p>
@@ -363,6 +371,50 @@ function Home() {
                     
                 </div>
             </div>
+        </div>
+        <div id='Categories' className='min-h-screen'>
+            <div id='Categories_Title' className='flex flex-col pl-56 py-16'>
+                <h1 className='font-WorkSans text-4xl font-bold'>Browse Categories</h1>
+            </div>
+            <div id='Categories_List' className='flex flex-col gap-12'>
+                <div className='flex flex-row justify-evenly px-12 pt-10'>
+                    <div className='flex flex-col '>
+                        <img src={Art} alt="Art" />
+                        <h2 className='font-WorkSans font-bold text-xl py-8 bg-[#3B3B3B] rounded-b-2xl pl-8'>Art</h2>
+                    </div>
+                    <div className='flex flex-col '>
+                        <img src={Music} alt="Music" />
+                        <h2 className='font-WorkSans font-bold text-xl py-8 bg-[#3B3B3B] rounded-b-2xl pl-8'>Music</h2>
+                    </div>
+                    <div className='flex flex-col justify-center'>
+                        <img src={Photography} alt="Photography" />
+                        <h2 className='font-WorkSans font-bold text-xl py-8 bg-[#3B3B3B] rounded-b-2xl pl-8'>Photography</h2>
+                    </div>
+                    <div className='flex flex-col '>
+                        <img src={Collectibles} alt="Collectibles" />
+                        <h2 className='font-WorkSans font-bold text-xl py-8 bg-[#3B3B3B] rounded-b-2xl pl-8'>Collectibles</h2>
+                    </div>
+                </div>
+                <div className='flex flex-row justify-evenly px-12 pt-10'>
+                    <div className='flex flex-col '>
+                        <img src={Video} alt="Video" />
+                        <h2 className='font-WorkSans font-bold text-xl py-8 bg-[#3B3B3B] rounded-b-2xl pl-8'>Video</h2>
+                    </div>
+                    <div className='flex flex-col '>
+                        <img src={Utility} alt="Utility" />
+                        <h2 className='font-WorkSans font-bold text-xl py-8 bg-[#3B3B3B] rounded-b-2xl pl-8'>Utility</h2>
+                    </div>
+                    <div className='flex flex-col'>
+                        <img src={Sport} alt="Sport" />
+                        <h2 className='font-WorkSans font-bold text-xl py-8 bg-[#3B3B3B] rounded-b-2xl pl-8'>Sport</h2>
+                    </div>
+                    <div className='flex flex-col'>
+                        <img src={VirtualWorlds} alt="Virtual Worlds" />
+                        <h2 className='font-WorkSans font-bold text-xl py-8 bg-[#3B3B3B] rounded-b-2xl pl-8'>Virtual Worlds</h2>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </div>
   );
