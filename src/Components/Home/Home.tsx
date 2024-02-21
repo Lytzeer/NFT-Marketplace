@@ -59,7 +59,7 @@ function Home() {
                     </button>
                 </div>
             </div>
-            <div id='body' className='flex flex-row font-WorkSans justify-evenly items-center pt-24 pr-36'>
+            <div id='body' className='flex flex-row font-WorkSans justify-around items-center pt-24'>
                 <div id='Side_Text' className='flex flex-col'>
                     <div id='hero' className='pt-24'>
                         <h1 className='text-7xl font-bold'>Discover <br/> digital art <br/>& Collect NFTs</h1>
@@ -101,7 +101,7 @@ function Home() {
             </div>
         </div>
         <div id='Trending' className='min-h-screen'>
-            <div id="Trending_Title" className='flex flex-col pl-56 py-16'>
+            <div id="Trending_Title" className='flex flex-col pl-32 py-16'>
                 <h1 className='font-WorkSans text-4xl font-bold'>Trending Collection</h1>
                 <p className='font-WorkSans text-xl pt-8'>Checkout our weekly updated trending collection.</p>
             </div>
@@ -115,7 +115,7 @@ function Home() {
                             <p className='font-spacemono font-bold'>1025+</p>
                         </div>
                     </div>
-                    <h2 className='font-WorkSans font-bold text-xl py-8 bg-[#3B3B3B] rounded-b-2xl pl-8'>DSNG Animals</h2>
+                    <h2 className='font-WorkSans font-bold text-xl py-4 rounded-b-2xl'>DSNG Animals</h2>
                     <div className='flex flex-row'>
                         <img src={MrFox} alt="Avatar" />
                         <p className='font-WorkSans pl-4'>MrFox</p>
@@ -130,7 +130,7 @@ function Home() {
                             <p className='font-spacemono font-bold'>1025+</p>
                         </div>
                     </div>
-                    <h2 className='font-WorkSans font-bold text-xl py-8 bg-[#3B3B3B] rounded-b-2xl pl-8'>Magic Mushrooms</h2>
+                    <h2 className='font-WorkSans font-bold text-xl py-4 rounded-b-2xl'>Magic Mushrooms</h2>
                     <div className='flex flex-row'>
                         <img src={Shroomie} alt="Avatar" />
                         <p className='font-WorkSans pl-4'>Shroomie</p>
@@ -145,7 +145,7 @@ function Home() {
                             <p className='font-spacemono font-bold'>1025+</p>
                         </div>
                     </div>
-                    <h2 className='font-WorkSans font-bold text-xl py-8 bg-[#3B3B3B] rounded-b-2xl pl-8'>Disco Machines</h2>
+                    <h2 className='font-WorkSans font-bold text-xl py-4 rounded-b-2xl'>Disco Machines</h2>
                     <div className='flex flex-row'>
                         <img src={BeKind2Robots} alt="Avatar" />
                         <p className='font-WorkSans pl-4'>BeKind2Robots</p>
@@ -154,12 +154,12 @@ function Home() {
             </div>
         </div>
         <div id='Creators' className='min-h-screen'>
-            <div id='Creators_Title' className='flex flex-row justify-between pl-56 py-16'>
+            <div id='Creators_Title' className='flex flex-row justify-between px-32 py-16'>
                 <div className='flex flex-col'>
                     <h1 className='font-WorkSans text-4xl font-bold'>Top Creators</h1>
                     <p className='font-WorkSans text-xl pt-8'>Checkout Top Rated Creators on the NFT Marketplace</p>
                 </div>
-                <div className='flex items-end pr-56'>
+                <div className='flex items-end'>
                     <button>
                         <div className='py-4 px-14 bg-transparent border-2 border-[#A259FF] rounded-3xl flex flex-row items-center font-WorkSans font-semibold'>
                             <img src={Ranking} alt="" className='w-6'/>
@@ -168,7 +168,7 @@ function Home() {
                     </button>
                 </div>
             </div>
-            <div id='Creators_List' className='flex flex-col py-16 items-center gap-8'>
+            <div id='Creators_List' className='flex flex-col px-32 py-16 items-center gap-8'>
                 <div id='First_Row' className='flex flex-row gap-8'>
                     <div className='bg-[#3B3B3B] rounded-3xl pt-8 px-16 flex flex-col'>
                         <div className='flex flex-row justify-center'>
@@ -373,11 +373,11 @@ function Home() {
             </div>
         </div>
         <div id='Categories' className='min-h-screen'>
-            <div id='Categories_Title' className='flex flex-col pl-56 py-16'>
+            <div id='Categories_Title' className='flex flex-col pl-32 py-16'>
                 <h1 className='font-WorkSans text-4xl font-bold'>Browse Categories</h1>
             </div>
-            <div id='Categories_List' className='flex flex-col gap-12'>
-                <div className='flex flex-row justify-evenly px-12 pt-10'>
+            <div id='Categories_List' className='flex flex-col px-32 '>
+                <div className='flex flex-row justify-between pt-10'>
                     <div className='flex flex-col '>
                         <img src={Art} alt="Art" />
                         <h2 className='font-WorkSans font-bold text-xl py-8 bg-[#3B3B3B] rounded-b-2xl pl-8'>Art</h2>
@@ -395,7 +395,7 @@ function Home() {
                         <h2 className='font-WorkSans font-bold text-xl py-8 bg-[#3B3B3B] rounded-b-2xl pl-8'>Collectibles</h2>
                     </div>
                 </div>
-                <div className='flex flex-row justify-evenly px-12 pt-10'>
+                <div className='flex flex-row justify-between pt-10'>
                     <div className='flex flex-col '>
                         <img src={Video} alt="Video" />
                         <h2 className='font-WorkSans font-bold text-xl py-8 bg-[#3B3B3B] rounded-b-2xl pl-8'>Video</h2>
