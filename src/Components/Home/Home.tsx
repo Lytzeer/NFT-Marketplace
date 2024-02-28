@@ -105,7 +105,7 @@ function Home() {
                 <h1 className='font-WorkSans text-4xl font-bold'>Trending Collection</h1>
                 <p className='font-WorkSans text-xl pt-8'>Checkout our weekly updated trending collection.</p>
             </div>
-            <div id='Collection' className='flex flex-row justify-evenly pt-10'>
+            <div id='Collection' className='flex flex-row justify-around pt-10'>
                 <div className='flex flex-col gap-4'>
                     <img src={DSNG_Main} alt="DSNG Animals Main" />
                     <div className='flex flex-row justify-between'>
